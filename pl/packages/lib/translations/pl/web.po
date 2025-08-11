@@ -8,7 +8,7 @@ msgstr ""
 "Language: pl\n"
 "Project-Id-Version: test34675\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-08 17:02\n"
+"PO-Revision-Date: 2025-08-11 20:31\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-Project-ID: 817536\n"
 "X-Crowdin-Language: pl\n"
 "X-Crowdin-File: /main/packages/lib/translations/en/web.po\n"
-"X-Crowdin-File-ID: 24\n"
+"X-Crowdin-File-ID: 38\n"
 
 #: apps/remix/app/components/dialogs/template-direct-link-dialog.tsx
 msgid " Enable direct link signing"
@@ -170,6 +170,10 @@ msgstr ""
 #. placeholder {0}: organisation.name
 #: apps/remix/app/routes/_authenticated+/o.$orgUrl._index.tsx
 msgid "{0} Teams"
+msgstr ""
+
+#: apps/remix/app/components/tables/internal-audit-log-table.tsx
+msgid "{browserInfo} on {os}"
 msgstr ""
 
 #: apps/remix/app/components/general/document-signing/document-signing-text-field.tsx
@@ -371,6 +375,10 @@ msgstr ""
 
 #: packages/email/templates/document-invite.tsx
 msgid "{teamName} has invited you to {action} {documentName}"
+msgstr ""
+
+#: apps/remix/app/components/tables/internal-audit-log-table.tsx
+msgid "{userAgent}"
 msgstr ""
 
 #: packages/lib/utils/document-audit-logs.ts
@@ -750,7 +758,6 @@ msgstr ""
 
 #: apps/remix/app/components/tables/settings-security-activity-table.tsx
 #: apps/remix/app/components/tables/settings-public-profile-templates-table.tsx
-#: apps/remix/app/components/tables/internal-audit-log-table.tsx
 #: apps/remix/app/components/tables/documents-table-action-dropdown.tsx
 #: apps/remix/app/components/tables/document-logs-table.tsx
 #: apps/remix/app/components/general/document/document-page-view-dropdown.tsx
@@ -1491,8 +1498,12 @@ msgstr ""
 msgid "Attempts sealing the document again, useful for after a code change has occurred to resolve an erroneous document."
 msgstr ""
 
-#: apps/remix/app/components/general/document/document-page-view-dropdown.tsx
+#: apps/remix/app/routes/_internal+/[__htmltopdf]+/audit-log.tsx
 msgid "Audit Log"
+msgstr ""
+
+#: apps/remix/app/components/general/document/document-page-view-dropdown.tsx
+msgid "Audit Logs"
 msgstr ""
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
@@ -1596,7 +1607,6 @@ msgid "Branding preferences updated"
 msgstr ""
 
 #: apps/remix/app/components/tables/settings-security-activity-table.tsx
-#: apps/remix/app/components/tables/internal-audit-log-table.tsx
 msgid "Browser"
 msgstr ""
 
@@ -2112,6 +2122,10 @@ msgstr ""
 
 #: packages/ui/primitives/document-flow/add-settings.tsx
 msgid "Controls the language for the document, including the language to be used for email notifications, and the final certificate that is generated and attached to the document."
+msgstr ""
+
+#: apps/remix/app/components/forms/document-preferences-form.tsx
+msgid "Controls whether the audit logs will be included in the document when it is downloaded. The audit logs can still be downloaded from the logs page separately."
 msgstr ""
 
 #: apps/remix/app/components/forms/document-preferences-form.tsx
@@ -3145,6 +3159,7 @@ msgstr ""
 msgid "Drag and drop or click to upload"
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
 #: apps/remix/app/components/general/document/document-drop-zone-wrapper.tsx
 msgid "Drag and drop your PDF file here"
 msgstr ""
@@ -3673,6 +3688,7 @@ msgstr ""
 msgid "Fields updated"
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
 #: apps/remix/app/components/general/document/document-upload.tsx
 #: apps/remix/app/components/general/document/document-drop-zone-wrapper.tsx
 #: apps/remix/app/components/embed/authoring/configure-document-upload.tsx
@@ -4048,6 +4064,10 @@ msgid "Inbox documents"
 msgstr ""
 
 #: apps/remix/app/components/forms/document-preferences-form.tsx
+msgid "Include the Audit Logs in the Document"
+msgstr ""
+
+#: apps/remix/app/components/forms/document-preferences-form.tsx
 msgid "Include the Signing Certificate in the Document"
 msgstr ""
 
@@ -4062,6 +4082,7 @@ msgstr ""
 
 #: apps/remix/app/components/forms/email-preferences-form.tsx
 #: apps/remix/app/components/forms/email-preferences-form.tsx
+#: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
@@ -4604,6 +4625,10 @@ msgstr ""
 msgid "My Folder"
 msgstr ""
 
+#: apps/remix/app/components/tables/internal-audit-log-table.tsx
+msgid "N/A"
+msgstr ""
+
 #: apps/remix/app/routes/_authenticated+/o.$orgUrl.settings.email-domains.$id.tsx
 #: apps/remix/app/routes/_authenticated+/admin+/users.$id.tsx
 #: apps/remix/app/components/tables/settings-security-passkey-table.tsx
@@ -4684,6 +4709,7 @@ msgstr ""
 msgid "Next field"
 msgstr ""
 
+#: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/branding-preferences-form.tsx
@@ -5343,6 +5369,7 @@ msgstr ""
 msgid "Please try again and make sure you enter the correct email address."
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
 #: apps/remix/app/components/dialogs/template-create-dialog.tsx
 msgid "Please try again later."
 msgstr ""
@@ -6395,6 +6422,7 @@ msgstr ""
 #: apps/remix/app/components/general/share-document-download-button.tsx
 #: apps/remix/app/components/general/billing-plans.tsx
 #: apps/remix/app/components/general/billing-plans.tsx
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
 #: apps/remix/app/components/general/teams/team-email-usage.tsx
 #: apps/remix/app/components/general/teams/team-email-dropdown.tsx
 #: apps/remix/app/components/general/organisations/organisation-invitations.tsx
@@ -6830,6 +6858,10 @@ msgstr ""
 
 #: apps/remix/app/routes/embed+/v1+/authoring+/template.edit.$id.tsx
 msgid "Template updated successfully"
+msgstr ""
+
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
+msgid "Template uploaded"
 msgstr ""
 
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/templates._index.tsx
@@ -7426,7 +7458,6 @@ msgstr ""
 msgid "This will sign you out of all other devices. You will need to sign in again on those devices to continue using your account."
 msgstr ""
 
-#: apps/remix/app/components/tables/internal-audit-log-table.tsx
 #: apps/remix/app/components/tables/document-logs-table.tsx
 msgid "Time"
 msgstr ""
@@ -7458,6 +7489,10 @@ msgstr ""
 
 #: apps/remix/app/routes/_unauthenticated+/organisation.invite.$token.tsx
 msgid "To accept this invitation you must create an account."
+msgstr ""
+
+#: apps/remix/app/components/dialogs/team-member-create-dialog.tsx
+msgid "To be able to add members to a team, you must first add them to the organisation. For more information, please see the <0>documentation</0>."
 msgstr ""
 
 #: apps/remix/app/components/dialogs/team-email-update-dialog.tsx
@@ -7909,6 +7944,10 @@ msgstr ""
 msgid "Upload Signature"
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
+msgid "Upload Template"
+msgstr ""
+
 #: packages/ui/primitives/document-upload.tsx
 #: packages/ui/primitives/document-dropzone.tsx
 msgid "Upload Template Document"
@@ -7939,6 +7978,10 @@ msgstr ""
 msgid "Uploading document..."
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
+msgid "Uploading template..."
+msgstr ""
+
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/templates.$id._index.tsx
 msgid "Use"
 msgstr ""
@@ -7964,6 +8007,10 @@ msgstr ""
 #: apps/remix/app/components/tables/internal-audit-log-table.tsx
 #: apps/remix/app/components/tables/document-logs-table.tsx
 msgid "User"
+msgstr ""
+
+#: apps/remix/app/components/tables/internal-audit-log-table.tsx
+msgid "User Agent"
 msgstr ""
 
 #: apps/remix/app/components/forms/password.tsx
@@ -8041,10 +8088,6 @@ msgstr ""
 
 #: packages/email/templates/confirm-team-email.tsx
 msgid "Verify your team email address"
-msgstr ""
-
-#: apps/remix/app/routes/_internal+/[__htmltopdf]+/audit-log.tsx
-msgid "Version History"
 msgstr ""
 
 #: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx
@@ -8597,6 +8640,7 @@ msgstr ""
 msgid "Yearly"
 msgstr ""
 
+#: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 #: apps/remix/app/components/forms/branding-preferences-form.tsx
@@ -9205,6 +9249,10 @@ msgstr ""
 msgid "Your team has been successfully updated."
 msgstr ""
 
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
+msgid "Your template failed to upload."
+msgstr ""
+
 #: apps/remix/app/routes/embed+/v1+/authoring_.completed.create.tsx
 msgid "Your template has been created successfully"
 msgstr ""
@@ -9215,6 +9263,10 @@ msgstr ""
 
 #: apps/remix/app/components/dialogs/template-delete-dialog.tsx
 msgid "Your template has been successfully deleted."
+msgstr ""
+
+#: apps/remix/app/components/general/template/template-drop-zone-wrapper.tsx
+msgid "Your template has been uploaded successfully. You will be redirected to the template page."
 msgstr ""
 
 #: apps/remix/app/components/dialogs/template-duplicate-dialog.tsx
